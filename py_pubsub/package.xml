@@ -3,10 +3,12 @@
 <package format="3">
   <name>py_pubsub</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Examples of minimal publisher/subscriber using rclpy</description>
   <maintainer email="andy.ponce@outlook.com">andyp</maintainer>
-  <license>TODO: License declaration</license>
-
+  <license>Apache License 2.0</license>
+  <!-- The following two lines declare the package needs rclpy and std_msgs when its code is executed: -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
