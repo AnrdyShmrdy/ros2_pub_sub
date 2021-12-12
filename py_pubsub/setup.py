@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='andyp',
     maintainer_email='andy.ponce@outlook.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Examples of minimal publisher/subscriber using rclpy',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        	'talker = py_pubsub.publisher_member_function:main',
         ],
     },
 )
